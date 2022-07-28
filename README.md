@@ -1,7 +1,7 @@
 # Car Price Prediction Multiple Linear Regression
 
 Hi! Esse projeto foi feito para exemplificar a construção de modelos de regressão linear múltipla, para ter mais detalhes do seus desenvolvimento recomendo fortemente minha publicação no Medium sobre o assunto.
-Medium:
+Medium: https://medium.com/@leandric/trabalhando-com-regress%C3%A3o-linear-40b780ebcf2
 Kaggle: https://www.kaggle.com/datasets/hellbuoy/car-price-prediction
 
 

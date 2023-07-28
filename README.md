@@ -3,17 +3,68 @@
 Kaggle: https://www.kaggle.com/datasets/hellbuoy/car-price-prediction
 
 
-#  Declaração do problema
+# Apresentação da Empresa: Geely Auto
 
-A empresa automobilística chinesa Geely Auto aspira entrar no mercado dos EUA estabelecendo sua unidade de fabricação lá e produzindo carros localmente para competir com seus colegas americanos e europeus.
+A Geely Auto é uma empresa chinesa líder na fabricação e venda de automóveis. A empresa possui uma vasta experiência na indústria automotiva e tem uma presença significativa no mercado chinês. Com sua visão de expandir sua atuação global, a Geely Auto tem interesse em ingressar no competitivo mercado dos Estados Unidos.
 
-Eles contrataram uma empresa de consultoria automobilística para entender os fatores dos quais depende o preço dos carros. Especificamente, eles querem entender os fatores que afetam os preços dos carros no mercado americano, pois podem ser muito diferentes do mercado chinês. A empresa quer saber:
+# Problema Específico: Penetração no Mercado dos Estados Unidos
 
-Quais variáveis ​​são significativas na previsão do preço de um carro Como essas variáveis ​​descrevem o preço de um carro Com base em várias pesquisas de mercado, a empresa de consultoria reuniu um grande conjunto de dados de diferentes tipos de carros no mercado americano.
+A Geely Auto enfrenta o desafio de entrar no mercado automotivo dos Estados Unidos, que é altamente competitivo e diversificado. Para ter sucesso nesse mercado, a empresa precisa compreender as dinâmicas de preços específicas da região e identificar os principais fatores que influenciam o preço dos carros no mercado americano. Isso permitirá que a Geely Auto ajuste sua estratégia de negócios, design de carros e outras decisões importantes para atingir os objetivos de preços desejados.
 
-## Objetivo de Negócios
+# Perguntas da Pesquisa:
 
-Somos obrigados a modelar o preço dos carros com as variáveis ​​independentes disponíveis. Ele será usado pela administração para entender exatamente como os preços variam com as variáveis ​​independentes. Eles podem manipular o design dos carros, a estratégia de negócios etc. para atender a determinados níveis de preços. Além disso, o modelo será uma boa maneira de a administração entender a dinâmica de preços de um novo mercado.
+1. Quais são os fatores que afetam significativamente o preço dos carros no mercado automotivo dos Estados Unidos?
+2. Quais variáveis independentes estão mais fortemente correlacionadas com o preço dos carros?
+3. Como podemos construir um modelo preditivo eficaz para estimar o preço dos carros com base nas variáveis disponíveis?
+4. Como essas variáveis explicam a variação nos preços dos carros?
+5. Quais insights podemos obter do modelo para ajudar a Geely Auto a tomar decisões estratégicas e atingir seus objetivos de preços no mercado americano?
+
+
+# Dataset
+Disponivel em: https://www.kaggle.com/datasets/hellbuoy/car-price-prediction
+
+## Sobre os dados
+Coluna|Descrição
+-----|-----
+Car_ID	|Sua classificação de risco de seguro atribuída, um valor de +3 indica que o automóvel é arriscado, -3 que provavelmente é bastante seguro. (Categórico)
+carCompany |	Nome da empresa de carros (categórica)
+fueltype |	Tipo de combustível de carro, ou seja, gás ou diesel (categórico)
+aspiration | 	Aspiração usada em um carro (categórico)
+doornumber |	Número de portas em um carro (categórico)
+carbody |	Corpo de carro (categórico)
+drivewheel |	tipo de roda de acionamento (categórica)
+enginelocation |	Localização do motor do carro (categórico)
+wheelbase |	Weelbase de carro (numérico)
+carlength |	Comprimento do carro (numérico)
+carwidth |	Largura do carro (numérico)
+carheight |	Altura do carro (numérico)
+curbweight |	O peso de um carro sem ocupantes ou bagagem. (Numérico)
+enginetype |	Tipo de motor. (Categórico)
+cylindernumber |	Cilindro colocado no carro (categórico)
+enginesize |	Tamanho do carro (numérico)
+fuelsystem |	Sistema de combustível de carro (categórico)
+boreratio |	Boreratio de carro (numérico)
+stroke |	AVC ou volume dentro do motor (numérico)
+compressionratio |	Taxa de compressão de carro (numérico)
+horsepower |	Potência (numérica)
+peakrpm |	RPM de pico de carro (numérico)
+citympg |	Milhagem na cidade (numérica)
+highwaympg |	Milhagem na rodovia (numérica)
+price(Dependent variable) |	Preço do carro (numérico)
+
+* O dataset possui várias colunas, cada uma representando uma característica específica do carro, como a marca do carro, o tipo de combustível (gasolina ou diesel), a aspiração utilizada no carro, o número de portas, o tipo de carroceria, a tração das rodas, a localização do motor, entre outros.
+* Algumas colunas são categóricas, ou seja, representam atributos qualitativos, enquanto outras são numéricas, representando atributos quantitativos. Por exemplo, a coluna "carCompany" é categórica, enquanto "horsepower" é numérica.
+* A coluna "price" é a variável dependente, que representa o preço do carro, e será nosso alvo para prever com base nas demais variáveis independentes.
+* Existem algumas colunas que indicam informações técnicas sobre o motor, como o tamanho do motor ("enginesize"), o número de cilindros ("cylindernumber"), a taxa de compressão ("compressionratio"), entre outras. Essas características do motor podem influenciar significativamente o preço do carro.
+* Também temos informações sobre o tamanho físico do carro, como o comprimento ("carlength"), a largura ("carwidth"), a altura ("carheight"), e o peso do carro ("curbweight"). Essas características podem afetar o preço do carro, pois carros maiores ou mais pesados ​​podem ter um preço mais alto.
+* Algumas colunas, como "citympg" e "highwaympg", indicam o consumo de combustível na cidade e na estrada, respectivamente. Essas informações podem influenciar o preço do carro, uma vez que carros mais econômicos podem ser mais valorizados.
+* O dataset também inclui informações sobre a relação diâmetro do cilindro e curso do pistão ("boreratio"), o curso ou volume dentro do motor ("stroke"), a potência do motor ("horsepower") e o RPM de pico do motor ("peakrpm"), que são fatores importantes a serem considerados na determinação do preço do carro.
+* As informações sobre a empresa de carros ("carCompany") também podem ser relevantes, pois diferentes marcas podem ter reputações e posicionamentos de mercado diferentes, o que pode afetar os preços dos carros.
+
+
+
+
+
 
 ## Análise da Variável dependente (y)
 

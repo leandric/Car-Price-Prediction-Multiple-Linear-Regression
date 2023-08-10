@@ -9,7 +9,7 @@ A Geely Auto é uma empresa chinesa líder na fabricação e venda de automóvei
 
 # Problema Específico: Penetração no Mercado dos Estados Unidos
 
-A Geely Auto enfrenta o desafio de entrar no mercado automotivo dos Estados Unidos, que é altamente competitivo e diversificado. Para ter sucesso nesse mercado, a empresa precisa compreender as dinâmicas de preços específicas da região e identificar os principais fatores que influenciam o preço dos carros no mercado americano. Isso permitirá que a Geely Auto ajuste sua estratégia de negócios, design de carros e outras decisões importantes para atingir os objetivos de preços desejados.
+A Geely Auto enfrenta o desafio de entrar no mercado automotivo dos Estados Unidos, que é altamente competitivo e diversificado. Para ter sucesso nesse mercado, a empresa precisa compreender as dinâmicas de preços específicas da região e identificar os principais fatores que influenciam o preço dos carros no mercado americano.
 
 # Perguntas da Pesquisa:
 
